@@ -1,6 +1,6 @@
 # H4lo_BLE-Killer (MNTM)蓝牙漏洞攻击程序
 
-该程序为国内大神H4lo制作，程序提供了BLE 蓝牙扫描功能，以及一些蓝牙设备的漏洞攻击功能。
+该程序为国内大神[H4lo](https://github.com/H4lo)制作，程序提供了BLE 蓝牙扫描功能，以及一些蓝牙设备的漏洞攻击功能。
 
 H4lo从事物联网安全及漏洞挖掘等相关工作，感兴趣的朋友可以去微信知识星球中搜索IoT 物联网安全(星球号90991053)，作者会不定期发布挖掘出的相关漏洞。
 
@@ -59,6 +59,6 @@ https://github.com/H4lo/flipper_zero_ble_killer
 
 ***
 
-原作者：H4lo
+原作者：[H4lo](https://github.com/H4lo)
 
 兼容性修正及汉化：宅人改造家

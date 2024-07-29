@@ -2,7 +2,7 @@
 
 <h2>视频链接：</h2>
 
-<img src="assets/video.png">
+[<img src="assets/video.png">](https://www.bilibili.com/video/BV1ZH4y1F7pm)
 
 <h2>程序介绍：</h2>
 

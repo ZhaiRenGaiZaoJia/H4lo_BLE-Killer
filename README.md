@@ -4,11 +4,13 @@
 
 [<img src="assets/video.png">](https://www.bilibili.com/video/BV1ZH4y1F7pm)
 
-<h2>程序介绍：</h2>
+<h2>作者介绍：</h2>
 
 该程序为国内大神[H4lo](https://github.com/H4lo)制作，程序提供了BLE 蓝牙扫描功能，以及一些蓝牙设备的漏洞攻击功能。
 
 H4lo从事物联网安全及漏洞挖掘等相关工作，感兴趣的朋友可以去微信知识星球中搜索IoT 物联网安全(星球号90991053)，作者会不定期发布挖掘出的相关漏洞。
+
+<h2>程序介绍：</h2>
 
 <img src="assets/Screenshot-001.png">
 <img src="assets/Screenshot-002.png">

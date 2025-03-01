@@ -1,4 +1,7 @@
-//按住boot，将usb转ttl模块插入电脑，点击rest，松开rest后，松开boot，开始编译即刷入固件。
+//BLEDevice库：
+//https://github.com/espressif/arduino-esp32/tree/master
+//arduino-esp32 2.0.17版
+//按住boot，点击rest，松开rest后，松开boot，开始编译即刷入固件。
 //调试波特率为115200
 
 #include <BLEDevice.h>
@@ -339,12 +342,16 @@ void print_log(char *logs){
 
 void setup() {
   //串口监视器调试接口
+  delay(100);
   Serial.begin(115200);
   Serial.println("Init...");
   Serial1.println("Init...");
 
   //与小海豚的通信接口
+  delay(100);
   Serial1.begin(9600, SERIAL_8N1, RX1, TX1);
+
+  pinMode(32,OUTPUT);
 
   BLEDevice::init("");
   pBLEScan = BLEDevice::getScan(); //create new scan
@@ -355,6 +362,7 @@ void setup() {
 
   weapon_init();
 
+  digitalWrite(32,HIGH);
 }
 
 void loop() {
